@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.container1 {
+    display: grid;
+    grid-template-rows: 150px 600px 200px;
+    justify-content: center;
+    height: 100%;
+}
+.header {
+    display: grid;
+    align-content: center; 
+}
+.delivery {
+    color: #4E60FF;;
+}
+.main {
+    display: grid;
+    align-self: stretch;
+}
+.check {
+    margin-right: 10px;
+}
+.lg {
+    display: grid;
+    font-size: 60px;
+    line-height: 82px;
+    color: #2B2B43;
+}
+.parg-sign-in {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #545563;
+}
+.email-text {
+    align-self: end;    
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #545563;
+}
+.email-input {
+    width: 350px;
+    height: 44px;
+    border: 1px solid #C7C8D2;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.login {
+    width: 350px;
+    height: 44px;
+    left: 165px;
+    top: 602px;
+    background: #4E60FF;
+    box-shadow: 0px 8px 20px rgba(78, 96, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+}
+.login-parg {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    justify-self: center;
+    color: #FFFFFF;
+}
+.forget {
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    background-color: #FFFFFF;
+    letter-spacing: 0.3px;
+    color: #4E60FF;
+}
+.footer {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.container2 {
+    display: block;
+    /* grid-template-rows: auto auto; */
+    background: #697BFF;
+    justify-items: center;
+}
+.cards-box {
+    display: grid;
+    grid-template-columns: 350px 330px;
+    grid-template-rows:320px 150px ;
+    margin-top: 60px;
+}
+.card1 {
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 0.894286px solid #EDEEF2;
+    border-radius: 14.3086px;
+    margin-left: 25px;
+}
+.card1-header {
+    display: grid;
+    grid-template-columns:auto auto;
+    padding: 10px;
+    border-bottom: 1px solid rgb(191, 191, 191);
+}
+.card1-button {
+    place-self: center;
+    grid-area: 1 / 2 / span 2 / span 3;
+    width: 107.62px;
+    height: 39.46px;
+    border: 1px solid #4E60FF;
+    border-radius: 8px;
+}
+.card1-list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 3px;
+}
+.card1-item {
+    color: #4E60FF;
+    font-size: 10px;
+    list-style-type: none;
+}
+.grey {
+    color: #96969a;;
+}
+.card1-parg {
+    align-self: center;
+    font-weight: 700;
+    font-size: 11.6257px;
+    line-height: 16px;
+    letter-spacing: 0.0894286px;
+    color: #2B2B43;
+}
+.card1-span {
+    font-weight: 600;
+    font-size: 17.8857px;
+    line-height: 25px;
+    color: #4E60FF;
+    padding-right: 7px;
+}
+.card1-review1 {
+    display: grid;
+    justify-items: center;
+    padding-top: 15px;
+}
+.dropdown {
+    background: #FFFFFF;
+    border: 1px solid #C7C8D2;
+    border-radius: 8px;  
+}
+.s-m {
+    display: grid;
+    grid-template-columns:auto auto;
+    align-items: center;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+.s-img {
+    grid-area: 1 / 1 / span 2 / span 1;
+    padding-right: 10px;
+}
+.s-m-parg {
+    grid-area: 3 / 2 / span 3 / span 1;
+    letter-spacing: 0.1px;
+    color: #2B2B43;
+}
+.ok {
+    grid-area: 5 / 2 / span 2 / span 1;
+}
+.sav-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #2B2B43;
+    margin: 0;
+}
+.card2 {
+    display: inline-block;
+    width: 320px;
+    height: 300px;
+    background: #FFFFFF;
+    border: 0.84px solid #EDEEF2;
+    border-radius: 14px;
+    place-self: center stretch;
+}
+.card2-main {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 15px;
+    row-gap: 4px;
+}
+.sushi {
+    border-radius: 25px;
+    place-self: center;
+}
+.roll {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2B2B43;
+}
+.card2-parg {
+    font-weight: 400;
+    margin: 0;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #83859C;
+}
+.card2-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.dollar {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #2B2B43;
+}
+.plus { 
+    background: #F3F4FF;
+    border-radius: 10.08px;
+    border: none;
+}
+.card3 {
+    grid-area: 2 / 1 / span 1 / span 2;
+    background: #FFFFFF;
+    border: 0.84px solid #EDEEF2;
+    border-radius: 14px;
+    width: 650px;
+    height: 150px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card3-header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+    column-gap: 20px;
+}
+.nigiri {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #2B2B43;
+}
+.nig-parg {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #83859C;
+}
+.add {
+    width: 112.41px;
+    height: 37.32px;
+    right: 13.55px;
+    bottom: 20.32px;
+    background: #F3F4FF;
+    border-radius: 6.7726px;
+    border: none;
+}
+.add-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #4E60FF; 
+}
+.min-plus-b {
+    background: #EDEEF2;
+    opacity: 0.5;
+    border-radius: 6.7726px;
+    border: none;
+}
+.side {
+    display: grid;
+    row-gap: 15px;
+}
+.counter {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-self: center;
+}
+.cards-footer {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    padding-top: 15%;
+    row-gap: 30px;
+} 
+.f-review {
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.f-parg {
+    display: grid;
+    place-self: center;
+    width: 50%;
+    /* padding: 0 40px; */
+    /* margin: 0; */
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+.f-list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.f-item {
+    padding: 7px;
+}
+@media (max-width: 1000px) {
+    .container2 {
+        /* position: relative; */
+        display: none ;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .container1 {
+        /* display: grid; */
+    }
+}
